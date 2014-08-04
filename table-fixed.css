@@ -1,0 +1,63 @@
+
+.table-fixed-wrap {
+	overflow: auto;
+}
+
+.table-fixed-container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.table-fixed-content {
+	position: absolute;
+}
+
+.table-fixed-content .table-fixed-head {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.table-fixed-content .table-fixed-head > table {
+	width: auto;
+	margin-bottom: 0;
+}
+
+.table-fixed-content .table-fixed-head > table > thead{
+	background-color: #fff;
+}
+
+.table-fixed-content .table-fixed-body {
+	position: relative;
+	overflow: auto;
+}
+
+.table-fixed-content .table-fixed-body > table {
+	margin-bottom: 0;
+}
+
+.table-fixed-column {
+	z-index: 2;
+	position: absolute;
+	background-color: #fff;
+}
+
+.table-fixed-column .table-fixed-head {
+	overflow: hidden;
+	position: relative;
+}
+
+.table-fixed-column .table-fixed-head table{
+	margin-bottom: 0;
+}
+
+.table-fixed-column .table-fixed-body {
+	overflow: hidden;
+	position: relative;
+}
+
+.table-fixed-column .table-fixed-body table{
+	margin-bottom: 0;
+}
